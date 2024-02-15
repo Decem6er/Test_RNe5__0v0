@@ -20,7 +20,7 @@ export async function run() {
      */
 
     // insert a paragraph at the end of the document.
-    const paragraph = context.document.body.insertParagraph("Have a good day! hh", Word.InsertLocation.end);
+    const paragraph = context.document.body.insertParagraph("Have a good day! hh--和、我说", Word.InsertLocation.end);
 
     // change the paragraph color to blue.
     paragraph.font.color = "blue";
